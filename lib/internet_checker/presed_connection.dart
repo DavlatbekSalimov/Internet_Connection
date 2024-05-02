@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:keskalapitest/auto_connection.dart';
-import 'package:keskalapitest/internet_controller.dart';
+import 'package:keskalapitest/internet_checker/auto_connection.dart';
+import 'package:keskalapitest/internet_checker/internet_controller.dart';
 
 class HomePage extends ConsumerWidget {
   const HomePage({super.key});
